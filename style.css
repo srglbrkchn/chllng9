@@ -195,4 +195,8 @@ p {
       "std5";
   }
 
+  img {
+    width: 1rem;
+  }
+
 }
