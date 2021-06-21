@@ -167,6 +167,10 @@ p {
       "std5 std5 std5 ";
   }
 
+  img {
+    width: 1.1rem;
+  }
+
   p {
     line-height: 1.2;
     width: 100%;
@@ -181,7 +185,7 @@ p {
 @media(max-width:760px) {
   .students {
     width: 85%;
-    min-width: 325px;
+    min-width: 340px;
     margin: 5rem auto;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
@@ -192,4 +196,9 @@ p {
       "std4"
       "std5";
   }
+
+  img {
+    width: 1.1rem;
+  }
+  
 }
