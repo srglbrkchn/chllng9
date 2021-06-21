@@ -6,11 +6,13 @@ body {
 
 img {
   border-radius: 50%;
-  width: 1.8rem;
+  width: 2rem;
   border-width: 2px;
   border-style: solid;
   border-color: hsl(0, 0%, 100%);
+  margin: 0.2rem;
   margin-right: 1rem;
+
 }
 
 h2, p {
@@ -53,7 +55,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   border-radius: 10px;
   padding: 2rem;
   box-shadow: 12px 15px 30px hsl(0, 0%, 81%);
@@ -167,10 +169,6 @@ p {
       "std5 std5 std5 ";
   }
 
-  img {
-    width: 1.1rem;
-  }
-
   p {
     line-height: 1.2;
     width: 100%;
@@ -197,8 +195,4 @@ p {
       "std5";
   }
 
-  img {
-    width: 1.1rem;
-  }
-  
 }
