@@ -6,7 +6,7 @@ body {
 
 img {
   border-radius: 50%;
-  width: 1.5rem;
+  width: 2rem;
   border-width: 2px;
   border-style: solid;
   border-color: hsl(0, 0%, 100%);
@@ -193,10 +193,6 @@ p {
       "std3"
       "std4"
       "std5";
-  }
-
-  img {
-    width: 1rem;
   }
 
 }
